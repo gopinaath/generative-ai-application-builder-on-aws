@@ -50,9 +50,8 @@ When the DevOps user deploys the Deployment Dashboard, the following components 
 10. All of the LLM configuration options provided by the admin user in the deployment wizard will be saved in an [AWS System Manager Parameter Store](https://aws.amazon.com/systems-manager/features/#Parameter_Store). This Parameter store is used by the deployment to configure the LLM at runtime.
 11. Using [Amazon Cloudwatch](https://aws.amazon.com/cloudwatch/), operational metrics are collected by various services to generate custom dashboards used for monitoring the solution's health.
 
-```
+
 Note: Although the Deployment dashboard can be launched in most AWS regions, the deployed use cases have some restrictions based on service availability. See Supported AWS Regions in the Implementation Guide for more details.
-```
 
 
 ### Use Cases
